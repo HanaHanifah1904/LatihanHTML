@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Latihan 1</title>
+</head>
+<body>
+
+    <center><h1>Formulir Pendaftaran Online</h1></center>
+
+    <form>
+
+        <!-- Program Kuliah -->
+        <table border="0">
+            <tr>
+                <td><label for="program-kuliah">Program Kuliah </label></td>
+                <td>
+                    <select id="program-kuliah" name="program-kuliah" required>
+                        <option value="JTIK">Teknologi Informasi Dan Komputer</option>
+                        <option value="JTM">Teknik Mesin</option>
+                        <option value="JPERTA">Pertanian</option>
+                        <option value="JKES">Keperawatan</option>
+                    </select>
+                </td>
+            </tr>
+        </table>
+
+        <!-- Program -->
+        <table border="0">
+            <tr>
+                <td><label for="program">Program </label></td>
+                <td>
+                    <select id="program" name="program" required>
+                        <option value="sistem informasi">D3 Sistem Informasi</option>
+                        <option value="rpl">D4 Rekayasa Perangkat Lunak</option>
+                        <option value="perawatan mesin">D3 Perawatan Mesin</option>
+                        <option value="manufaktur">D4 Manufaktur</option>
+                        <option value="tptp">D4 Tanaman Pangan</option>
+                        <option value="agro">D3 Agroindustri</option>
+                        <option value="keperawatan">D3 Keperawatan</option>
+                    </select>
+                </td>
+            </tr>
+        </table>
+
+        <h4><p>*Wajib Di Isi</p></h4>
+        <hr/>
+
+        <!-- Biodata -->
+        <center><h2>Biodata</h2></center>
+
+        <table border="0">
+            <tr>
+                <td><label for="nama">Nama Lengkap </label></td>
+                <td><input type="text" id="nama" name="nama" required></td>
+            </tr>
+
+            <tr>
+                <td><label for="jenis-kelamin">Jenis Kelamin </label></td>
+                <td>
+                    <select id="jenis-kelamin" name="jenis-kelamin" required>
+                        <option value="LAKI LAKI">Laki-Laki</option>
+                        <option value="PEREMPUAN">Perempuan</option>
+                    </select>
+                </td>
+            </tr>
+
+            <tr>
+                <td><label for="tanggal-lahir">Tanggal Lahir </label></td>
+                <td><input type="date" id="tanggal-lahir" name="tanggal-lahir" required></td>
+            </tr>
+
+            <tr>
+                <td><label for="agama">Agama </label></td>
+                <td>
+                    <select id="agama" name="agama" required>
+                        <option value="Islam">Islam</option>
+                        <option value="Kristen">Kristen</option>
+                        <option value="Katolik">Katolik</option>
+                        <option value="Budha">Budha</option>
+                        <option value="Hindu">Hindu</option>
+                        <option value="Konghucu">Konghucu</option>
+                    </select>
+                </td>
+            </tr>
+
+            <tr>
+                <td><label for="sekolah">Sekolah *</label></td>
+                <td>
+                    <select id="sekolah" name="sekolah" required>
+                        <option value="TK">TK</option>
+                        <option value="SD">SD</option>
+                        <option value="SD">SMP</option>
+                        <option value="SD">SMA</option>
+                        <option value="SD">Kuliah</option>
+                    </select>
+                    </td>
+                    </tr>
+                    </table>
+
+                
+        <div>
+            <button type="submit">Simpan</button>
+            <button onclick="window.location.href='latihan1.1.html'">Batal</button>
+        </div>
+    </form>    
+
+                    
